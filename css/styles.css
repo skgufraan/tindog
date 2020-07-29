@@ -195,7 +195,7 @@ p {
 
 /*CSS-Mobile-Resposive*/
 
-@media (max-width: 500px) {
+@media (max-width: 1028px) {
 
   #title {
     text-align: center;
