@@ -1,2 +1,2 @@
 # tindog
-This website made by Complete Bootstrap.
+This website is Complete Responsive.
