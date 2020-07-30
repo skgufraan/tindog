@@ -7,8 +7,7 @@ body {
 
 
 h2, h3 {
-	font-family: "Montserrat";
-	font-weight: bold;
+	font-family: "Montserrat-Bold";
 }
 
 p {
@@ -18,13 +17,13 @@ p {
 /*Heading*/
 
 .big-heading {
-	font-family: "Montserrat";
+	font-family: "Montserrat-Black";
 	font-size: 3.5rem;
 	line-height: 1.5;
 }
 
 .section-heading {
-	font-size: 2.8rem;
+	font-size: 3rem;
 	line-height: 1.5;
 }
 
@@ -92,7 +91,7 @@ p {
 
 /*Title-Image*/
 .title-image {
-	width: 65%;
+	width: 60%;
 	transform: rotate(25deg);
 	position: absolute;
 	right: 30%;
@@ -101,12 +100,15 @@ p {
 /*Features Section*/
 
 #features {
-	padding: 6% 2%;
 	position: relative;
 }
 
+.feature-title {
+	font-size: 1.5rem;
+}
+
 .feature-box {
-	padding: 5%;
+	padding: 4.5%;
  }
 
 .icon {
@@ -118,14 +120,14 @@ p {
 	color: #FF4C68;
 }
 
-/*Testimonials*/
+/* Testimonial Section */
 
 #testimonials {
 	background-color: #ef8172;
 }
 
 .testimonial-text {
-	font-size: 2.8rem;
+	font-size: 3rem;
 	line-height: 1.5;
 }
 
@@ -153,7 +155,7 @@ p {
 }
 
 .price-text {
-	font-size: 2.8rem;
+	font-size: 3rem;
 	line-height: 1.5;
 }
 
@@ -162,10 +164,6 @@ p {
 }
 
 /*Footer Section*/
-
-#footer {
-	background-color: #fff;
-}
 
 /*Social icon*/
 
@@ -197,7 +195,7 @@ p {
 	color: #b23121;
 }
 
-/*CSS-Mobile-Resposive*/
+/* CSS-Mobile-Resposive */
 
 @media (max-width: 1028px) {
 
@@ -209,9 +207,5 @@ p {
     position: static;
     transform: rotate(0);
   }
-	
-  body {
-    margin: 0;
-    padding: 0;
- }
+
 }
