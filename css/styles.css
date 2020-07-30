@@ -70,6 +70,10 @@ p {
 	font-size: 1.2rem;
 }
 
+.nav-link:hover {
+	text-decoration: underline;
+}
+
 /*Download Buttons*/
 
 .Download-button {
